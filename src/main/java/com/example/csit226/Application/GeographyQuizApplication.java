@@ -12,7 +12,7 @@ public class GeographyQuizApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
-        FXMLLoader fxmlLoader = new FXMLLoader(NumberCounterApplication.class.getResource("gqa-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(NumberCounterApplication.class.getResource("/com/example/csit226/gqa-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 500, 500);
         stage.setTitle("Geography Quiz");
         stage.setScene(scene);
