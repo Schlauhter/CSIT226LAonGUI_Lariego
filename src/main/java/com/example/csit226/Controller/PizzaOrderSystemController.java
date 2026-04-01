@@ -1,4 +1,4 @@
-package com.example.csit226;
+package com.example.csit226.Controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

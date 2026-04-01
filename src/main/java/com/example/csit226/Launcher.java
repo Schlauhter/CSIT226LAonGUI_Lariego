@@ -1,5 +1,8 @@
 package com.example.csit226;
 
+import com.example.csit226.Application.GeographyQuizApplication;
+import com.example.csit226.Application.NumberCounterApplication;
+import com.example.csit226.Application.PizzaOrderSystemApplication;
 import javafx.application.Application;
 
 public class Launcher {

@@ -8,4 +8,8 @@ module com.example.csit226 {
 
     opens com.example.csit226 to javafx.fxml;
     exports com.example.csit226;
+    exports com.example.csit226.Application;
+    opens com.example.csit226.Application to javafx.fxml;
+    exports com.example.csit226.Controller;
+    opens com.example.csit226.Controller to javafx.fxml;
 }

@@ -1,4 +1,4 @@
-package com.example.csit226;
+package com.example.csit226.Application;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
