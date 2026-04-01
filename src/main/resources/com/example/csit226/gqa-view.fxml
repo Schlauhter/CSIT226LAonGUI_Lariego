@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csit226.GeographyQuizController">
+
+   <children>
+
+      <!-- Lisood I align tanan bisag unsaon og change aning x & y's -->
+      <AnchorPane fx:id="panel1" prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <Label layoutX="180.0" layoutY="150.0" text="What is the capital of France?" />
+            <TextField fx:id="question1TextField" layoutX="180.0" layoutY="230.0" />
+
+            <Label layoutX="180.0" layoutY="51.0" text="Your Score: 0/3" />
+
+            <Button layoutX="180.0" layoutY="300.0" onAction="#nextFrom1" text="Next" />
+         </children>
+      </AnchorPane>
+
+
+      <AnchorPane fx:id="panel2" prefHeight="500.0" prefWidth="500.0" visible="false">
+         <children>
+            <Label layoutX="180" layoutY="150" text="What is the capital of Japan?" />
+            <TextField fx:id="question2TextField" layoutX="180" layoutY="230" />
+
+            <Label layoutX="180" layoutY="50" text="Your Score: 0/3" />
+
+            <Button layoutX="150" layoutY="300" onAction="#backTo1" text="Back" />
+            <Button layoutX="280" layoutY="300" onAction="#nextFrom2" text="Next" />
+         </children>
+      </AnchorPane>
+
+
+      <AnchorPane fx:id="panel3" prefHeight="500.0" prefWidth="500.0" visible="false">
+         <children>
+            <Label layoutX="180" layoutY="150" text="What is the capital of Germany?" />
+            <TextField fx:id="question3TextField" layoutX="180" layoutY="230" />
+
+            <Label layoutX="180" layoutY="50" text="Your Score: 0/3" />
+
+            <Button layoutX="150" layoutY="300" onAction="#backTo2" text="Back" />
+            <Button layoutX="280" layoutY="300" onAction="#nextFrom3" text="Next" />
+         </children>
+      </AnchorPane>
+
+
+      <AnchorPane fx:id="panel4" prefHeight="500.0" prefWidth="500.0" visible="false">
+         <children>
+            <Label layoutX="180" layoutY="200" text="Congratulations! You finished the quiz!" />
+
+            <Label fx:id="scoreLabel" layoutX="180" layoutY="50" text="Your Score: 0/3" />
+
+            <Button layoutX="220" layoutY="300" onAction="#backTo3" text="Back" />
+         </children>
+      </AnchorPane>
+
+   </children>
+</AnchorPane>

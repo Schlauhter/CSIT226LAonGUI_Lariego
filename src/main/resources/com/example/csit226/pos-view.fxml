@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csit226.PizzaOrderSystemController">
+   <children>
+      <Pane layoutX="200.0" prefHeight="400.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="totalLabel" layoutX="83.0" layoutY="65.0" text="Total: " />
+            <ChoiceBox fx:id="pizzaToppingsChoice" layoutX="25.0" layoutY="188.0" prefWidth="150.0" />
+            <Button fx:id="calculateButton" layoutX="53.0" layoutY="267.0" text="Calculate Total" />
+            <Label layoutX="75.0" layoutY="157.0" text="Toppings" />
+         </children>
+      </Pane>
+      <Pane prefHeight="402.0" prefWidth="200.0">
+         <children>
+            <ChoiceBox fx:id="pizzaSizeChoice" layoutX="25.0" layoutY="189.0" prefWidth="150.0" />
+            <Label layoutX="90.0" layoutY="157.0" text="Size" />
+         </children>
+      </Pane>
+      <Pane layoutX="400.0" prefHeight="405.0" prefWidth="200.0">
+         <children>
+            <ChoiceBox fx:id="extraCheeseChoice" layoutX="21.0" layoutY="184.0" prefWidth="150.0" />
+            <Label layoutX="64.0" layoutY="157.0" text="Extra Cheese?" />
+         </children>
+      </Pane>
+   </children>
+
+
+
+</AnchorPane>
